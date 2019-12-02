@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Помощник тренировок</string>
+
+    <string name="welcome">Добро пожаловать!</string>
+    <string name="start">Начать</string>
+
+    <string name="home_text">Домой</string>
+    <string name="calc_text">Калькулятор</string>
+    <string name="history_text">История</string>
+
+    <string name="tab_BMI">Индекс массы тела</string>
+    <string name="tab_PFC">Калькулятор БЖУ и калорий</string>
+    <string name="tab_BodyType">Тип телосложения</string>
+
+    <string name="yourHeight">Введите свой рост, см</string>
+    <string name="yourWeight">Введите свой вес, кг</string>
+    <string name="yourAge">Введите свой возраст</string>
+    <string name="calculate">Рассчитать</string>
+</resources>

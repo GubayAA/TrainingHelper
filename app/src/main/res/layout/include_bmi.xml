@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center|top"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvCalcBMI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ваш индекс массы тела" />
+
+    <EditText
+        android:id="@+id/etBmiHeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/yourHeight"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/etBmiWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/yourWeight"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnBmi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onclickBmi"
+        android:text="@string/calculate" />
+
+    <ImageView
+        android:id="@+id/ivBmi"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:visibility="invisible"
+        app:srcCompat="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/tvBmiResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:visibility="invisible" />
+
+</LinearLayout>
